@@ -1,0 +1,53 @@
+body{
+    background:#f5f5f5;
+    font-family: lato;
+}
+.sjr-main-container{
+    border:1px solid black;
+    margin: 35vh auto;
+    position: relative;
+    height: auto;
+    border-radius: 5px;
+    width: auto;
+    max-width: 35vw;
+    max-height: 40vh;
+}
+.sjr-header h3{
+    margin: 0px auto;
+    text-align: center;
+    line-height: 40px;
+}
+.sjr-items{
+    height: 40px;left: 20px;position: relative;
+}
+.sjr-items input[type="text"]{
+    outline: none;
+    height: 20px;
+    background: none;
+    border: none;
+    border-bottom: 1px dashed #333;
+}
+.sjr-items select{
+    height: 20px;
+    width: auto;
+    font-size: 13px;
+}
+.sjr-footer{
+    height: 50px;
+}
+.sjr-footer button{
+    height: 35px;
+    left: 15%;
+    float: left;
+    margin-left: 10%;
+    position: relative;
+    background:#f5f5f5;
+    outline:none;
+    border-radius: 5px;
+    font-weight:500;
+    width:100px;
+    cursor:pointer;
+}
+.sjr-footer button:hover{
+    background: #fff;
+}
